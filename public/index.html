@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Skills Tree</title>
+		<meta charset="utf-8"/>
+
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/lib/d3.min.js"></script>	
+		<script src="js/skillTree.js"></script>
+<style>
+
+.node circle {
+	  fill: #999;
+}
+
+.node text {
+	  font: 10px sans-serif;
+}
+
+.node--internal circle {
+	  fill: #555;
+}
+
+.node--internal text {
+	  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+	  fill: none;
+		    stroke: #555;
+				  stroke-opacity: 0.4;
+					    stroke-width: 1.5px;
+}
+
+</style>
+	</head>
+	<svg></svg>
+	<body>
+	</body>
+</html>
+
